@@ -4,9 +4,9 @@
 //   node scripts/build.mjs          sprawdza skille i buduje dist/
 //   node scripts/build.mjs --check  tylko sprawdza (do CI)
 //
-// dist/skills/<nazwa>/SKILL.md   bez zmian: Claude, Codex, OpenClaw, Copilot Cowork (import SKILL.md)
+// dist/skills/<nazwa>/SKILL.md   bez zmian: Anthropic Claude, OpenAI Codex, OpenClaw, Microsoft 365 Copilot Cowork (import SKILL.md)
 // dist/instrukcje/<nazwa>.md     instrukcja „spłaszczona” do wklejenia: agent M365 Copilot,
-//                                Gem w Gemini, projekt lub GPT w ChatGPT
+//                                Gem w Google Gemini, projekt lub GPT w OpenAI ChatGPT
 //
 // Bez zależności, Node 18+.
 
