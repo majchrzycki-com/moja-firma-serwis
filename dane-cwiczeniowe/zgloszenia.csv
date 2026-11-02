@@ -1,0 +1,9 @@
+﻿zgloszenie_id;kanal;data_czas;kto_zglasza;firma_jak_podano;obiekt_jak_podano;tresc
+Z-001;telefon do technika;2026-09-07 06:40;Anna Kowal, kierownik zmiany;Piekarnia Bochen;Młyńska;Piec nie nagrzewa się powyżej 120 stopni, poranny wypiek stoi. Ten większy, przy ścianie.
+Z-002;mail;2026-09-07 07:55;Tomasz Lis;Pakuj.pl;Hala A;Brama na rampie 3 znowu nie domyka się, fotokomórka miga. Trzecia awaria w tym kwartale.
+Z-003;alarm z urządzenia;2026-09-07 08:12;system monitoringu;Wędzonka;Hala produkcyjna;FL-400 CH-7790: temperatura +6,8 °C, próg +4 °C przekroczony od 22 minut.
+Z-004;portal klienta;2026-09-07 08:30;Marek Zając;Hotel Pod Dębami;Budynek główny;Dźwig zatrzymuje się między piętrami, pasażerowie nie uwięzieni. Prosimy o termin.
+Z-005;telefon;2026-09-07 08:41;Jan Nowak, właściciel;Bochen;Piekarnia;Dzwoniłem do Pawła, piec stoi od szóstej, kiedy ktoś przyjedzie?
+Z-006;mail;2026-09-07 09:10;Ewa Grabowska;Smakosz Catering sp. z o.o.;Kuchnia centralna, ul. Polna 2;Zepsuł się piec konwekcyjny, nie mamy z Wami umowy, czy możecie przyjechać dziś?
+Z-007;portal klienta;2026-09-07 09:25;Tomasz Lis;Pakuj.pl;Hala B;Przypominam o przeglądzie centrali wentylacyjnej na dachu, termin z umowy mija w tym miesiącu.
+Z-008;mail;2026-09-06 23:50;Piotr Wrona;Wędzonka;Biurowiec;W biurze wieje zimnym powietrzem mimo ustawienia 22 stopni. Nie pilne, ale prosimy sprawdzić.

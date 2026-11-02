@@ -1,0 +1,36 @@
+name: build
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Kontrola procedur
+        run: node scripts/build.mjs --check
+      - name: Budowanie paczek
+        run: node scripts/build.mjs
+      - name: Paczki do wydania
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: |
+          cd dist
+          zip -r ../moja-firma-serwis-skills-${GITHUB_REF_NAME}.zip skills
+          zip -r ../moja-firma-serwis-instrukcje-${GITHUB_REF_NAME}.zip instrukcje
+          cd skills
+          for d in */; do zip -r "../../moja-firma-serwis-${d%/}-${GITHUB_REF_NAME}.zip" "$d"; done
+      - name: Wydanie
+        if: startsWith(github.ref, 'refs/tags/v')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$GITHUB_REF_NAME" moja-firma-serwis-*.zip --title "moja-firma-serwis $GITHUB_REF_NAME" --notes-file CHANGELOG.md

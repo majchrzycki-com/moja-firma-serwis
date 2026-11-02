@@ -1,0 +1,10 @@
+﻿nr_seryjny;model;typ;klient_id;klient;obiekt;umowa_id;ostatnia_naprawa;zgloszenia_12m;uwagi
+PK-44120;PiecoKomora PK-2000;piec piekarniczy;K-021;Piekarnia Rzemieślnicza Bochen sp. z o.o.;Piekarnia, ul. Młyńska 4;U-2024-11;2026-06-14;3;
+PK-44121;PiecoKomora PK-2000;piec piekarniczy;K-021;Piekarnia Rzemieślnicza Bochen sp. z o.o.;Piekarnia, ul. Młyńska 4;U-2024-11;2026-02-02;1;drugi piec tego samego modelu w tym samym obiekcie
+CH-7781;FrigoLine FL-120;komora chłodnicza;K-021;Piekarnia Rzemieślnicza Bochen sp. z o.o.;Piekarnia, ul. Młyńska 4;U-2024-11;2025-11-20;0;
+BR-1092;DoorMatic DM-4;brama przemysłowa;K-034;Centrum Logistyczne Pakuj.pl;Hala A, rampa 3;U-2025-03;2026-08-30;5;powtarzająca się usterka fotokomórki
+BR-1093;DoorMatic DM-4;brama przemysłowa;K-034;Centrum Logistyczne Pakuj.pl;Hala A, rampa 4;U-2025-03;2026-03-12;1;
+WZ-3300;AirCool AC-900;centrala wentylacyjna;K-034;Centrum Logistyczne Pakuj.pl;Hala B, dach;U-2025-03;2026-05-05;2;przegląd okresowy co 6 mies.
+DZ-5510;LiftPro LP-630;dźwig osobowy;K-008;Hotel Pod Dębami;Budynek główny;U-2023-07;2026-07-01;2;urządzenie pod dozorem technicznym
+CH-7790;FrigoLine FL-400;komora chłodnicza;K-041;Zakład Przetwórstwa Mięsnego Wędzonka;Hala produkcyjna;U-2025-09;2026-08-19;2;temperatura krytyczna dla produktu
+WZ-3312;AirCool AC-600;centrala wentylacyjna;K-041;Zakład Przetwórstwa Mięsnego Wędzonka;Biurowiec;U-2025-09;2026-04-10;0;

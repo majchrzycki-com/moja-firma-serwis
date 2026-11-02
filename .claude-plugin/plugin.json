@@ -1,0 +1,19 @@
+{
+  "name": "moja-firma-serwis",
+  "version": "0.1.0",
+  "description": "Agent zgłoszeń serwisowych dla polskiej firmy (usługi techniczne i serwisowe). Przypina zgłoszenia do urządzeń i umów SLA, liczy terminy reakcji w godzinach obsługi, scala duplikaty i proponuje dyspozytorowi kolejność obsługi.",
+  "author": {
+    "name": "Krzysztof Majchrzycki",
+    "url": "https://majchrzycki.com"
+  },
+  "homepage": "https://majchrzycki.com/blog/agent-zgloszen-serwisowych-w-claude-krok-po-kroku?utm_source=github&utm_medium=referral&utm_campaign=moja-firma&utm_content=zgloszenie-serwisowe",
+  "repository": "https://github.com/majchrzycki-com/moja-firma-serwis",
+  "license": "MIT",
+  "keywords": [
+    "msp",
+    "polska",
+    "zgloszenie-serwisowe",
+    "agent-skills",
+    "skill-md"
+  ]
+}

@@ -1,0 +1,5 @@
+﻿umowa_id;klient_id;klient;poziom;czas_reakcji_h;czas_naprawy_h;godziny_obslugi;rozliczenie;ryczalt_mies_pln
+U-2024-11;K-021;Piekarnia Rzemieślnicza Bochen sp. z o.o.;Złoty;4;24;24/7;ryczałt;6800
+U-2025-03;K-034;Centrum Logistyczne Pakuj.pl;Srebrny;8;48;pn–pt 7:00–19:00;ryczałt;4200
+U-2023-07;K-008;Hotel Pod Dębami;Brązowy;24;72;pn–pt 8:00–16:00;za zlecenie;0
+U-2025-09;K-041;Zakład Przetwórstwa Mięsnego Wędzonka;Złoty;4;24;24/7;ryczałt;9100

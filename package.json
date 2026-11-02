@@ -1,0 +1,14 @@
+{
+  "name": "moja-firma-serwis",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
