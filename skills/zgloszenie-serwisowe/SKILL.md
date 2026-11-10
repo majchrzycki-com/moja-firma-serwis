@@ -1,6 +1,6 @@
 ---
 name: zgloszenie-serwisowe
-description: Porządkuje zgłoszenia serwisowe w firmie serwisującej urządzenia u klientów: przypina zgłoszenie do urządzenia i umowy SLA, nadaje priorytet, liczy termin reakcji w godzinach obsługi z umowy, scala duplikaty z różnych kanałów, wypisuje braki i proponuje kolejność dla dyspozytora. Użyj przy porannym przeglądzie zgłoszeń, pytaniach o SLA, terminy reakcji albo kolejkę serwisu.
+description: "Porządkuje zgłoszenia serwisowe w firmie serwisującej urządzenia u klientów: przypina zgłoszenie do urządzenia i umowy SLA, nadaje priorytet, liczy termin reakcji w godzinach obsługi z umowy, scala duplikaty z różnych kanałów, wypisuje braki i proponuje kolejność dla dyspozytora. Użyj przy porannym przeglądzie zgłoszeń, pytaniach o SLA, terminy reakcji albo kolejkę serwisu."
 license: MIT
 metadata:
   autor: Krzysztof Majchrzycki

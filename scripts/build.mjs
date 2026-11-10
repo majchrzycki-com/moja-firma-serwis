@@ -32,7 +32,11 @@ function parseSkill(text) {
   const fm = {};
   for (const line of m[1].split(/\r?\n/)) {
     const kv = line.match(/^([a-z_]+):\s*(.*)$/); // tylko klucze najwyższego poziomu
-    if (kv && kv[2] !== "") fm[kv[1]] = kv[2].replace(/^["']|["']$/g, "");
+    if (kv && kv[2] !== "") {
+      // Wartość bez cudzysłowu z ": " albo " #" w środku psuje YAML: skill ładuje się bez nazwy i opisu.
+      if (!/^["']/.test(kv[2]) && /: | #/.test(kv[2])) fm.__yaml = kv[1];
+      fm[kv[1]] = kv[2].replace(/^["']|["']$/g, "");
+    }
   }
   return { fm, body: m[2].trim() };
 }
@@ -56,6 +60,7 @@ for (const dir of (await readdir(SKILLS, { withFileTypes: true })).filter((d) =>
     continue;
   }
   const { fm, body } = parsed;
+  if (fm.__yaml) errors.push(`${dir.name}: pole ${fm.__yaml} wymaga cudzysłowu (zawiera ": " albo " #")`);
   if (!fm.name) errors.push(`${dir.name}: brak pola name`);
   else {
     if (fm.name !== dir.name) errors.push(`${dir.name}: name „${fm.name}” różni się od nazwy katalogu`);
